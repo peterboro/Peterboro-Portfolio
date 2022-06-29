@@ -1,0 +1,90 @@
+body {
+  display: block;
+  margin: 0;
+}
+
+.font {
+  font-family: 'Poppins', sans-serif;
+  margin: 4px;
+}
+
+.toolbar-section {
+  background-image: url("Images/header-shapes\ mobile.png");
+  height: 110vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  margin: 0;
+  display: block;
+  width: 100vw;
+}
+
+.container-1 {
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myLogo {
+  margin: 25px 154px auto 155px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  margin-top: 29px;
+}
+
+.burger {
+  margin: 25px 154px auto 155px;
+}
+
+.burger:hover {
+  color: rgb(239, 14, 14);
+  cursor: pointer;
+}
+
+.headline-section {
+  padding: 0 16px;
+}
+
+.first-title {
+  margin: 280px auto auto 150px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  align-items: center;
+  letter-spacing: 0.37px;
+  width: 500px;
+  color: #091e42;
+}
+
+.description {
+  margin: 12px 260px auto 150px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  width: 70%;
+}
+
+.description2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social_links {
+  margin-left: -57px;
+}
