@@ -51,4 +51,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-- GitHub: [@peterboro]
+This project is [MIT](/LICENSE) licensed.
