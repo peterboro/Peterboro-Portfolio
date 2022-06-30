@@ -2,11 +2,17 @@ body {
   background: #fff;
   margin: auto;
   padding: 0;
+  width: 375px;
 }
 
 .font {
   font-family: 'Poppins', sans-serif;
   margin: 4px;
+}
+
+.header {
+  display: flex;
+  justify-items: center;
 }
 
 .myLogo {
@@ -18,12 +24,14 @@ body {
   line-height: 20px;
   align-self: center;
   color: #6070ff;
+  width: 300px;
 }
 
 .ul-image {
-  display: flex;
-  margin: 10px 260px auto 250px;
-  padding-top: 17px;
+  display: contents;
+  margin: 10px 260px 12px 300px;
+  padding: 0;
+  list-style: none;
 }
 
 .toolbar-section {
