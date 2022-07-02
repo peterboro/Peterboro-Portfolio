@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body {
   margin: auto;
   padding: 0;
   width: 375px;
   background: #e5e5e5;
+}
+
+.button {
+  outline: none;
+  border: none;
 }
 
 .font {
@@ -55,7 +61,7 @@ body {
 
 .description {
   margin: 20px 24px 12px 24px;
-  font-family: "PoppinsThin", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,7 +71,7 @@ body {
 
 .description2 {
   margin: 20px 24px 12px 24px;
-  font-family: "PoppinsThin", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -234,7 +240,7 @@ body {
   height: 76px;
   left: 0;
   top: 92px;
-  font-family: 'PoppinsThin', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -356,7 +362,7 @@ body {
   justify-content: center;
   font-size: 17px;
   line-height: 24px;
-  font-family: 'PoppinsThin', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #396df2;
@@ -364,6 +370,8 @@ body {
   letter-spacing: 0.51px;
   height: 60px;
   background-color: #fff;
+  border: none;
+  outline: none;
 }
 
 .normal-button1:hover {
@@ -407,7 +415,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 48px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -424,7 +432,7 @@ body {
   height: 144px;
   left: 0;
   top: 113px;
-  font-family: "PoppinsThin", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -438,7 +446,7 @@ body {
 
 .description5 {
   margin: 8px 0;
-  font-family: "PoppinsThin", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -479,7 +487,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'PoppinsThins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 13px;
   font-weight: normal;
@@ -488,6 +496,8 @@ body {
   letter-spacing: 0.51px;
   height: 40px;
   background-color: #fff;
+  border: none;
+  outline: none;
 }
 
 .normal-about-me:hover {
