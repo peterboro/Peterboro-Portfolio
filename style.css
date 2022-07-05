@@ -613,3 +613,224 @@ hr.solid {
   width: 95%;
   margin-left: 0;
 }
+
+.footer {
+  position: absolute;
+  left: 80;
+  top: 4680px;
+  width: 353px;
+}
+
+.parent {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.over-img {
+  position: absolute;
+  top: 0;
+  left: 131px;
+}
+
+.container-3 {
+  background-image: url("./Images/Contactme.png");
+  background-repeat: no-repeat;
+  height: 846px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 20px;
+  top: 0;
+  bottom: 0;
+}
+
+.first-title3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 12px 12px 36px;
+  color: #fff;
+}
+
+.description6 {
+  font-family: 'Poppins', sans-serif;
+  width: 327px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin: 0;
+}
+
+.contactform {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 0 24px;
+  margin-left: 0;
+  margin-top: 35px;
+}
+
+input {
+  background: #fff;
+  width: 300px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 0 0 7px 0;
+  padding-left: 20px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 170px;
+  padding-left: 20px;
+  padding-top: 0;
+  top: 0;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding-bottom: 10px;
+}
+
+.contactme {
+  background: #fff;
+  border-radius: 8px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid white;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 11px;
+}
+
+.contactbutton {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.contactme:hover {
+  background: #6070ff;
+  border-radius: 8px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid black;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.contactbutton:hover {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.contactme:visited {
+  background: #2230d2;
+  border-radius: 8px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid #2230d2;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.contactbutton:visited {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+}
+
+.contactme:disabled {
+  background: #e5e5e5;
+  border-radius: 8px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1px solid #5e6c84;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.contactbutton:disabled {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #5e6c84;
+}
+
+.shape {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  margin-top: 12px;
+  background: #0d151e;
+  border-radius: 10px;
+}
