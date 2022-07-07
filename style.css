@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
 
-@media screen and (max-width: 992px) and (min-width: 601px), (min-width: 993px) {
+@media screen and (max-width: 1023px) and (min-width: 700px), (min-width: 1024px) {
   body {
     margin: 0;
     padding: 0;
@@ -119,7 +119,7 @@
   }
 
   .section2 {
-    margin: 500px auto auto 150px;
+    margin: 550px auto auto 150px;
     position: absolute;
   }
 
@@ -595,6 +595,7 @@
     border-radius: 0 70px 0 0;
     height: 924px;
     top: 3700px;
+    width: 99vmax;
   }
 
   .container-2 {
@@ -1132,12 +1133,13 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 699px) {
   body {
     background-color: #fff;
-    margin: 0;
-    padding: 0;
-    width: 375px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
   }
 
   body::before {
@@ -1147,9 +1149,10 @@
   }
 
   header {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    width: 100%;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     background: #fff;
     align-items: center;
     box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.1);
@@ -1223,7 +1226,8 @@
   .navbar nav {
     position: fixed;
     top: -120%;
-    width: 100%;
+    width: 1200px;
+    max-width: calc(100% - 20px);
     height: 100%;
     background-color: #6070ff;
     opacity: 0.9;
@@ -1239,7 +1243,8 @@
   }
 
   .navbar nav ul li {
-    width: 100%;
+    width: 1200px;
+    max-width: calc(100% - 20px);
   }
 
   .navbar nav ul li a {
@@ -1253,7 +1258,10 @@
 
   .first-title {
     position: static;
-    width: 260px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 150px;
     left: 24px;
     top: 114px;
@@ -1268,12 +1276,14 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0;
   }
 
   .description {
     position: static;
-    width: 327px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 146px;
     left: 24px;
     top: 276px;
@@ -1286,7 +1296,6 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 12px 0 0 0;
   }
 
   .section2 {
@@ -1325,6 +1334,9 @@
     background-repeat: no-repeat;
     padding: 114px 24px 25px 24px;
     height: 604px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
   }
 
   .card-works {
@@ -1729,20 +1741,26 @@
   }
 
   .about-me-section {
-    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 375px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 1125.15px;
     left: calc(50% - 375px / 2);
     top: 3506px;
+    overflow-x: hidden;
   }
 
   .container-2 {
     background: #f7f7f9;
     background-image: url("./Images/Base\ about\ my\ self.png");
-    width: 375px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 1263px;
   }
 
@@ -1750,21 +1768,25 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
     position: static;
-    width: 327px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 409px;
     left: 24px;
     top: 114px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 114px 24px auto 24px;
   }
 
   .first-title2 {
     position: static;
-    width: 265px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 101px;
     left: 0;
     top: 0;
@@ -1779,12 +1801,14 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px 0;
   }
 
   .description3 {
     position: static;
-    width: 327px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 144px;
     left: 0;
     top: 113px;
@@ -1797,7 +1821,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px 0;
   }
 
   .connect2 {
@@ -1977,16 +2000,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
     position: static;
-    width: 327px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 464.15px;
     left: 24px;
     top: 547px;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 34px 24px auto 24px;
   }
 
   .frame1 {
@@ -2080,7 +2104,9 @@
   }
 
   .footer {
-    width: 375px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
     height: 779px;
     background: #6070ff;
     border-radius: 76px 0 0 0;
@@ -2109,13 +2135,19 @@
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 0 auto 0 35px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     color: #fff;
   }
 
   .description4 {
     font-family: "poppins", sans-serif;
-    width: 327px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    padding: 0 10px;
     height: 102px;
     font-style: normal;
     font-weight: normal;
@@ -2128,14 +2160,19 @@
   .contactform {
     display: flex;
     flex-direction: column;
-    margin: 70px 24px 20px 24px;
-    margin-left: 0;
-    margin-top: 35px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+    margin: 70px auto;
+    padding: 0 10px;
   }
 
   input {
     background: #fff;
-    width: 300px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
+
+    /* margin: 0 auto;
+    padding: 0 10px; */
     height: 48px;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
@@ -2155,7 +2192,8 @@
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    width: 300px;
+    width: 1200px;
+    max-width: calc(100% - 20px);
     height: 170px;
     padding-left: 20px;
     padding-top: 10px;
