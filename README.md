@@ -12,7 +12,7 @@ build the first 2 sections of the mobile website using the template I chose in t
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://127.0.0.1:5502/index.html)
+[Live Demo Link](https://peterboro.github.io/Portfolio-setup-mobile-microverse/)
 
 
 ## Getting Started
