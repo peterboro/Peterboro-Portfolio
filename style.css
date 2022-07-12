@@ -26,7 +26,7 @@ label {
     top: 3rem;
   }
 
-  /* .firstpage:hover {
+  .firstpage:hover {
     background: #fff;
     background-image: url("./Images/Headerbg@2x.png");
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ label {
     height: 846px;
     align-items: center;
     margin: 0 auto;
-  } */
+  } 
 
   .navbar {
     display: flex;
@@ -979,7 +979,7 @@ label {
     justify-content: center;
   }
 
-  /* .container-3:hover {
+  .container-3:hover {
     background: #6070ff;
     background-image: url("./Images/contactformbackgroundshapesdesktop.png");
     background-repeat: no-repeat;
@@ -989,7 +989,7 @@ label {
     height: 846px;
     align-items: center;
     margin: 0 auto;
-  } */
+  } 
 
   .first-title3 {
     font-family: "Poppins", sans-serif;
@@ -1005,12 +1005,12 @@ label {
     color: #fff;
   }
 
-  /* .first-title3:hover {
+  .first-title3:hover {
     transform: translate(12px, 12px);
     font-weight: bold;
     color: #172b4d;
     font-size: 44px;
-  } */
+  } 
 
   .description4 {
     font-family: "poppins", sans-serif;
@@ -1024,12 +1024,12 @@ label {
     color: #ebebff;
   }
 
-  /* .description4:hover {
+  .description4:hover {
     transform: translate(12px, 12px);
     font-weight: bold;
     color: #172b4d;
     font-size: 24px;
-  } */
+  } 
 
   .contactform {
     display: flex;
