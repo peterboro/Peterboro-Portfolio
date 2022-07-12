@@ -22,7 +22,7 @@ build the first 2 sections of the mobile website using the template I chose in t
 - Color contrast: No issues found
 - Resize: No issues found
 - Interaction: Added labels and set to invisible
-- Moving content: No issues foun
+- Moving content: No issues found
 - Multimedia: Not available
 - Basic structure of the page: No issues found
 
