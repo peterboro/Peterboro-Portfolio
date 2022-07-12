@@ -14,6 +14,16 @@ build the first 2 sections of the mobile website using the template I chose in t
 
 [Live Demo Link](https://peterboro.github.io/Portfolio-setup-mobile-microverse)
 
+## WEB ACCESSIBILITY
+- Page titles : No issues found
+- Image text alternatives: No issues found
+- Text headings: No issues found
+- Color contrast: No issues found
+- Resize: No issues found
+- Interaction: Added labels and set to invisible
+- Moving content: No issues foun
+- Multimedia: Not available
+- Basic structure of the page: No issues found
 
 ## Getting Started
 
