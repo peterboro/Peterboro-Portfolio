@@ -36,7 +36,7 @@ label {
     height: 846px;
     align-items: center;
     margin: 0 auto;
-  } 
+  }
 
   .navbar {
     display: flex;
@@ -989,7 +989,7 @@ label {
     height: 846px;
     align-items: center;
     margin: 0 auto;
-  } 
+  }
 
   .first-title3 {
     font-family: "Poppins", sans-serif;
@@ -1010,7 +1010,7 @@ label {
     font-weight: bold;
     color: #172b4d;
     font-size: 44px;
-  } 
+  }
 
   .description4 {
     font-family: "poppins", sans-serif;
@@ -1029,7 +1029,7 @@ label {
     font-weight: bold;
     color: #172b4d;
     font-size: 24px;
-  } 
+  }
 
   .contactform {
     display: flex;
