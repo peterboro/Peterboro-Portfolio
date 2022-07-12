@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
 
+label {
+  display: none;
+}
+
 @media screen and (max-width: 1023px) and (min-width: 700px), (min-width: 1024px) {
   body {
     margin: 0;
@@ -513,7 +517,7 @@
     height: 48px;
     left: 0;
     top: calc(50% - 48px / 2);
-    background: aqua;
+    background: #2230d2;
     border: 1px solid #7f8cff;
     box-sizing: border-box;
     border-radius: 8px;
@@ -2215,9 +2219,6 @@
     background: #fff;
     width: 1200px;
     max-width: calc(100% - 20px);
-
-    /* margin: 0 auto;
-    padding: 0 10px; */
     height: 48px;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
