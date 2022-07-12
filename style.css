@@ -513,7 +513,7 @@
     height: 48px;
     left: 0;
     top: calc(50% - 48px / 2);
-    background: aqua;
+    background: rgb(42, 30, 210);
     border: 1px solid #7f8cff;
     box-sizing: border-box;
     border-radius: 8px;
