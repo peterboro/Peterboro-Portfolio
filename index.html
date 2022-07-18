@@ -14,35 +14,12 @@
       referrerpolicy="no-referrer"
     />
   <title>Portfolio (mobile and desktop version)</title>
-  <!-- Google Tag Manager -->
-  <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "GA_MEASUREMENT_ID");
-    </script>
-  
 </head>
 <body>
   <div class="firstpage">
     <header class="navbar">
       <a class="myLogo"> My Logo </a>
       <div id ="icon" class="burger fas fa-bars"></div>
-        <!-- <ul class="ul-image">
-            <li>
-                <a href="#">
-                    <img src="/Images/Union.png" alt="union-background" />
-                </a>
-            </li>
-        </ul>
-      </div> -->
       <nav class="ul-menu">
         <ul class="items-nav">
           <li class="vers-desktop"><a href="#Portfolio">Portfolio</a></li>
@@ -119,7 +96,7 @@
         <li class="tag css-tag">css</li>
         <li class="tag js-tag">javascript</li>
       </ul>
-      <button class="works-button normal-button1"> See Project </button>
+      <button type="button" class="works-button normal-button1"> See Project </button>
       </div>
     </div>
     <div class="card card-works-layout2">
@@ -143,7 +120,7 @@
           <li class="tag css-tag">css</li>
           <li class="tag js-tag">javascript</li>
         </ul>
-        <button class="works-button normal-button1"> See Project </button>
+        <button type="button" class="works-button normal-button1"> See Project </button>
       </div>
     </div>
     <div class="card card-works-layout1">
@@ -167,7 +144,7 @@
           <li class="tag css-tag">css</li>
           <li class="tag js-tag">javascript</li>
         </ul>
-        <button class="works-button normal-button1"> See Project </button>
+        <button type="button" class="works-button normal-button1"> See Project </button>
       </div>
     </div>
     <div class="card card-works-layout2">
@@ -191,17 +168,10 @@
           <li class="tag css-tag">css</li>
           <li class="tag js-tag">javascript</li>
         </ul>
-        <button class="works-button normal-button1"> See Project </button>
+        <button type="button" class="works-button normal-button1"> See Project </button>
       </div>
     </div>
   </section>
-
-
-  <!-- Pop Up window -->
-  <div class = "bg-modal">
-
-  </div>
-
 
   <section class="about-me-section" id="About">
     <div class="container-2">
@@ -245,7 +215,7 @@
             </a>
           </li>
         </ul>
-        <button class="about-me-button normal-about-me"> Get My Resume </button>
+        <button type="button" class="about-me-button normal-about-me"> Get My Resume </button>
       </div>
       <div class="skills-list">
         <ul class="frame1">
@@ -307,8 +277,11 @@
         a feature that you need built or a project that needs coding.I’d love to help with it
       </p>
       <form class="contactform" action="https://formspree.io/f/myyoqzdn" method="POST">
+        <label id="name">Name</label>
         <input type="text" name="name" placeholder="Full Name" maxlength="30" required />
+        <label id="email">Email </label>
         <input type="email" name="email" placeholder="Email Address" required />
+        <label id="message">Message</label>
         <textarea name="message" placeholder="Write your message here" maxlength="500" required>
         </textarea>
         <button type="submit" class="contactme contactbutton">Get it Touch</button>
