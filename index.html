@@ -6,26 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Portfolio (mobile and desktop version)</title>
 </head>
 <body>
   <div class="firstpage">
     <header class="navbar">
       <a class="myLogo"> My Logo </a>
-      <div class="burger">
-        <ul class="ul-image">
-            <li>
-                <a href="#">
-                    <img src="./Images/Union.png" alt="union-background" />
-                </a>
-            </li>
-        </ul>
-      </div>
+      <div id ="icon" class="burger fas fa-bars"></div>
       <nav class="ul-menu">
         <ul class="items-nav">
           <li class="vers-desktop"><a href="#Portfolio">Portfolio</a></li>
           <li class="vers-desktop"><a href="#About">About</a></li>
-          <li class="vers-desktop"><a href="Contact">Contact</a></li>
+          <li class="vers-desktop"><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -173,7 +166,8 @@
       </div>
     </div>
   </section>
-  <section class="about-me-section" id="about-me">
+
+  <section class="about-me-section" id="About">
     <div class="container-2">
       <div class="about-head">
         <h4 class="first-title2">
@@ -269,7 +263,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer" id="contact">
+  <footer class="footer" id="Contact">
     <div class="container-3">
       <h4 class="first-title3">Contact me</h4>
       <p class="description4">
@@ -291,5 +285,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
