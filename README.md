@@ -14,11 +14,8 @@ build the first 2 sections of the mobile website using the template I chose in t
 
 [Live Demo Link](https://peterboro.github.io/Portfolio-setup-mobile-microverse)
 
-# WEB ACCESSIBILITY
-## REPORT ON WEB ACCESSIBILITY
-### According to WAVE Accessibility report, my coding partner and I we evaluated our pages and made the necessary changes. 
-<a href="https://wave.webaim.org/report#/https://peterboro.github.io/Portfolio-setup-mobile-microverse"> Link to report </a>
-![Wave web](https://user-images.githubusercontent.com/27219880/178518951-85232faa-646a-4e1d-9251-81e0d42ba5f9.png)
+## WEB ACCESSIBILITY
+# REPORT ON WEB ACCESSIBILITY
 - Page titles : No issues found
 - Image text alternatives: No issues found
 - Text headings: No issues found
