@@ -6,26 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   <title>Portfolio (mobile and desktop version)</title>
+  <!-- Google Tag Manager -->
+  <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "GA_MEASUREMENT_ID");
+    </script>
+  
 </head>
 <body>
   <div class="firstpage">
     <header class="navbar">
       <a class="myLogo"> My Logo </a>
-      <div class="burger">
-        <ul class="ul-image">
+      <div id ="icon" class="burger fas fa-bars"></div>
+        <!-- <ul class="ul-image">
             <li>
                 <a href="#">
-                    <img src="./Images/Union.png" alt="union-background" />
+                    <img src="/Images/Union.png" alt="union-background" />
                 </a>
             </li>
         </ul>
-      </div>
+      </div> -->
       <nav class="ul-menu">
         <ul class="items-nav">
           <li class="vers-desktop"><a href="#Portfolio">Portfolio</a></li>
           <li class="vers-desktop"><a href="#About">About</a></li>
-          <li class="vers-desktop"><a href="Contact">Contact</a></li>
+          <li class="vers-desktop"><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -46,27 +68,27 @@
           <ul class="linkSocials">
             <li>
               <a href="twitter.com">
-                  <img src="./Images/SocialMediaIcons/Twitter.png" alt="Twitter" />
+                  <img src="/Images/SocialMediaIcons/Twitter.png" alt="Twitter" />
               </a>
             </li>
             <li>
               <a href="linkedIn.com">
-                  <img src="./Images/SocialMediaIcons/Linkedin.png" alt="linkedIn" />
+                  <img src="/Images/SocialMediaIcons/Linkedin.png" alt="linkedIn" />
               </a>
             </li>
             <li>
               <a href="Medium">
-                  <img src="./Images/SocialMediaIcons/Medium.png" alt="Medium" />
+                  <img src="/Images/SocialMediaIcons/Medium.png" alt="Medium" />
               </a>
             </li>
             <li>
               <a href="Vector1">
-                  <img src="./Images/SocialMediaIcons/Vector1.png" alt="Vector1" />
+                  <img src="/Images/SocialMediaIcons/Vector1.png" alt="Vector1" />
               </a>
             </li>
             <li>
               <a href="Vector2">
-                  <img src="./Images/SocialMediaIcons/Vector2.png" alt="Vector2" />
+                  <img src="/Images/SocialMediaIcons/Vector2.png" alt="Vector2" />
               </a>
             </li>
           </ul>
@@ -84,9 +106,9 @@
         <h3 class="tonic"> Tonic </h3> 
         <ul class="ul-frame1">
           <li class="client">CANOPY</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="role"> Back End Dev</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="year"> 2015 </li>
         </ul>
         <p class="description2">A daily selection of privately personalized reads; no accounts or sign-ups
@@ -97,7 +119,7 @@
         <li class="tag css-tag">css</li>
         <li class="tag js-tag">javascript</li>
       </ul>
-      <button type="button" class="works-button normal-button1"> See Project </button>
+      <button class="works-button normal-button1"> See Project </button>
       </div>
     </div>
     <div class="card card-works-layout2">
@@ -108,9 +130,9 @@
         <h3 class="multi-post"> Multi-Post Stories </h3>
         <ul class="ul-frame1">
           <li class="client">FACEBOOK</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="role"> Full Stack Dev</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="year"> 2015 </li>
         </ul>
         <p class="description2">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
@@ -121,7 +143,7 @@
           <li class="tag css-tag">css</li>
           <li class="tag js-tag">javascript</li>
         </ul>
-        <button type="button" class="works-button normal-button1"> See Project </button>
+        <button class="works-button normal-button1"> See Project </button>
       </div>
     </div>
     <div class="card card-works-layout1">
@@ -132,9 +154,9 @@
         <h3 class="facebook360"> Facebook 360 </h3>
         <ul class="ul-frame1">
           <li class="client">FACEBOOK</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="role"> Full Stack Dev</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="year"> 2015 </li>
         </ul>
         <p class="description2"> Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR. 
@@ -145,7 +167,7 @@
           <li class="tag css-tag">css</li>
           <li class="tag js-tag">javascript</li>
         </ul>
-        <button type="button" class="works-button normal-button1"> See Project </button>
+        <button class="works-button normal-button1"> See Project </button>
       </div>
     </div>
     <div class="card card-works-layout2">
@@ -156,9 +178,9 @@
         <h3 class="ubernavigation"> Uber Navigation </h3>
         <ul class="ul-frame1">
           <li class="client">Uber</li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="role"> Lead Developer </li>
-          <li> <img src="./Images/Counter.png" alt="counter" /></li>
+          <li> <img src="/Images/Counter.png" alt="counter" /></li>
           <li class="year"> 2018 </li>
         </ul>
         <p class="description2"> A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car. 
@@ -169,11 +191,19 @@
           <li class="tag css-tag">css</li>
           <li class="tag js-tag">javascript</li>
         </ul>
-        <button type="button" class="works-button normal-button1"> See Project </button>
+        <button class="works-button normal-button1"> See Project </button>
       </div>
     </div>
   </section>
-  <section class="about-me-section" id="about-me">
+
+
+  <!-- Pop Up window -->
+  <div class = "bg-modal">
+
+  </div>
+
+
+  <section class="about-me-section" id="About">
     <div class="container-2">
       <div class="about-head">
         <h4 class="first-title2">
@@ -191,31 +221,31 @@
         <ul class="linkSocials">
           <li>
             <a href="twitter.com">
-              <img src="./Images/SocialMediaIcons/Twitter.png" alt="Twitter" />
+              <img src="/Images/SocialMediaIcons/Twitter.png" alt="Twitter" />
             </a>
           </li>
           <li>
             <a href="linkedIn.com">
-              <img src="./Images/SocialMediaIcons/Linkedin.png" alt="linkedIn" />
+              <img src="/Images/SocialMediaIcons/Linkedin.png" alt="linkedIn" />
             </a>
           </li>
           <li>
             <a href="Medium">
-              <img src="./Images/SocialMediaIcons/Medium.png" alt="Medium" />
+              <img src="/Images/SocialMediaIcons/Medium.png" alt="Medium" />
             </a>
           </li>
           <li>
             <a href="Vector1">
-              <img src="./Images/SocialMediaIcons/Vector1.png" alt="Vector1" />
+              <img src="/Images/SocialMediaIcons/Vector1.png" alt="Vector1" />
             </a>
           </li>
           <li>
             <a href="Vector2">
-              <img src="./Images/SocialMediaIcons/Vector2.png" alt="Vector2" />
+              <img src="/Images/SocialMediaIcons/Vector2.png" alt="Vector2" />
             </a>
           </li>
         </ul>
-        <button type="button" class="about-me-button normal-about-me"> Get My Resume </button>
+        <button class="about-me-button normal-about-me"> Get My Resume </button>
       </div>
       <div class="skills-list">
         <ul class="frame1">
@@ -223,24 +253,24 @@
             <div class="languages">
               <div class="lang">Languages</div>
               <div class="arrow">
-                <img src="./Images/arrowdown.png" alt="arrowdown" />
+                <img src="/Images/arrowdown.png" alt="arrowdown" />
               </div>
             </div>
             <ul class="frame2">
               <li class="language1 list">
-                <div><img src="./Images/Javascript.png" class="javascript" alt="javascript" /></div>
+                <div><img src="/Images/Javascript.png" class="javascript" alt="javascript" /></div>
                 <div>
                   <p class="language">Javascript</p>
                 </div>
               </li>
               <li class="language1 list">
-                <div><img src="./Images/HTML5.png" class="html" alt="HTML5" /></div>
+                <div><img src="/Images/HTML5.png" class="html" alt="HTML5" /></div>
                 <div>
                   <p class="language">HTML</p>
                 </div>
               </li>
               <li class="language1 list">
-                <div><img src="./Images/CSS.png" class="css" alt="CSS" /></div>
+                <div><img src="/Images/CSS.png" class="css" alt="CSS" /></div>
                 <div>
                   <p class="language">CSS</p>
                 </div>
@@ -251,7 +281,7 @@
             <div class="languages">
               <div class="lang">Frameworks</div>
               <div class="arrow">
-                <img src="./Images/arrowright.png" alt="arrowright" />
+                <img src="/Images/arrowright.png" alt="arrowright" />
               </div>
             </div>
             <hr class="solid" />
@@ -260,7 +290,7 @@
             <div class="languages">
               <div class="lang">Skills</div>
               <div class="arrow">
-                <img src="./Images/arrowright.png" alt="arrowright" />
+                <img src="/Images/arrowright.png" alt="arrowright" />
               </div>
             </div>
             <hr class="solid" />
@@ -269,7 +299,7 @@
       </div>
     </div>
   </section>
-  <footer class="footer" id="contact">
+  <footer class="footer" id="Contact">
     <div class="container-3">
       <h4 class="first-title3">Contact me</h4>
       <p class="description4">
@@ -277,11 +307,8 @@
         a feature that you need built or a project that needs coding.I’d love to help with it
       </p>
       <form class="contactform" action="https://formspree.io/f/myyoqzdn" method="POST">
-        <label id="name">Name</label>
         <input type="text" name="name" placeholder="Full Name" maxlength="30" required />
-        <label id="email">Email </label>
         <input type="email" name="email" placeholder="Email Address" required />
-        <label id="message">Message</label>
         <textarea name="message" placeholder="Write your message here" maxlength="500" required>
         </textarea>
         <button type="submit" class="contactme contactbutton">Get it Touch</button>
@@ -291,5 +318,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
