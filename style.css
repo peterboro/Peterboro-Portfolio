@@ -222,7 +222,7 @@ label {
   }
 
   .snapshot {
-    margin: 24px auto 24px 24px;
+    margin: 24px auto 24px 24px; 
     width: 90%;
   }
 
@@ -396,12 +396,14 @@ label {
     flex-direction: row;
     flex-wrap: wrap;
     order: 2;
-    gap: 8px;
+    /* gap: 8px; */
+    gap: 16px;
     list-style-type: none;
   }
 
   .tag {
-    padding: 4px 24px;
+    /* padding: 4px 24px; */
+    padding: 4px 40px;
     position: static;
     width: 45px;
     height: 24px;
@@ -1565,7 +1567,6 @@ label {
     height: 220px;
     left: 16px;
     top: 16px;
-    /* background: url(blog_drbl_4x.png); */
     border-radius: 8px;
     flex: none;
     order: 0;
@@ -1712,7 +1713,8 @@ label {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 8px;
+    /* gap: 8px; */
+    gap: 4px;
     margin: 0;
     padding: 0;
     order: 2;
@@ -1720,7 +1722,8 @@ label {
   }
 
   .tag {
-    padding: 4px 12px;
+    /* padding: 4px 12px; */
+    padding: 4px 32px;
     position: static;
     width: 45px;
     height: 24px;
@@ -1774,7 +1777,7 @@ label {
 
   .js-tag {
     position: static;
-    width: 65px;
+    width: 65px; 
     height: 16px;
     left: 12px;
     top: 4px;
