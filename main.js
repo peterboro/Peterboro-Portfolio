@@ -92,8 +92,8 @@ const popupCards = [
   {
     title: 'Tonic',
     datas: ['CANOPY', 'Back End Dev', '2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <span class='description3'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt animi consequuntur consectetur voluptate accusantium facilis, fuga non minus, </span>",
-    skills: ['html', 'css', 'javascript'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
     image: './Images/SnapshootPortfoliodesktop1.png',
     liveLink: 'See live',
     sourceLink: 'See Source',
@@ -101,8 +101,8 @@ const popupCards = [
   {
     title: 'Multi-Post Stories',
     datas: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <span class='description3'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt animi consequuntur consectetur voluptate accusantium facilis, fuga non minus, </span>",
-    skills: ['html', 'css', 'javascript'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
     image: './Images/SnapshootPortfoliodesktop2.png',
     liveLink: 'See live',
     sourceLink: 'See Source',
@@ -110,8 +110,8 @@ const popupCards = [
   {
     title: 'Facebook 360',
     datas: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <span class='description3'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt animi consequuntur consectetur voluptate accusantium facilis, fuga non minus, </span>",
-    skills: ['html', 'css', 'javascript'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
     image: './Images/SnapshootPortfoliodesktop2.png',
     liveLink: 'See live',
     sourceLink: 'See Source',
@@ -119,8 +119,8 @@ const popupCards = [
   {
     title: 'Uber Navigation',
     datas: ['Uber', 'Lead Developer', '2018'],
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <span class='description3'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt animi consequuntur consectetur voluptate accusantium facilis, fuga non minus, </span>",
-    skills: ['html', 'css', 'javascript'],
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    skills: ['html', 'css', 'javascript', 'ruby', 'github', 'Bootstraps'],
     image: './Images/SnapshootPortfoliodesktop2.png',
     liveLink: 'See live',
     sourceLink: 'See Source',
@@ -179,9 +179,9 @@ function popUp(index) {
   </div>
   `;
   bgModal.style.display = 'flex';
-  bgModal.addEventListener('click', (event)=>{
-    const {target:{classList}} = event;
-    if(classList.contains('bg-modal')){
+  bgModal.addEventListener('click', (event) => {
+    const { target: { classList } } = event;
+    if (classList.contains('bg-modal')) {
       document.querySelector('.bg-modal').style.display = 'none';
     }
   });
