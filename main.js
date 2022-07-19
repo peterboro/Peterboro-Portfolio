@@ -179,6 +179,13 @@ function popUp(index) {
   </div>
   `;
   bgModal.style.display = 'flex';
+  bgModal.addEventListener('click', (event)=>{
+    const {target:{classList}} = event;
+    if(classList.contains('bg-modal')){
+      document.querySelector('.bg-modal').style.display = 'none';
+    }
+  });
+
   document.querySelector('.close-button').addEventListener('click', () => {
     document.querySelector('.bg-modal').style.display = 'none';
   });
