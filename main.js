@@ -127,7 +127,7 @@ const popupCards = [
   },
 ];
 
-const btns = document.querySelectorAll('.workbutton');
+const btns = document.querySelectorAll('.works-button');
 const bgModal = document.querySelector('.bg-modal');
 
 function popUp(index) {
