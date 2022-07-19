@@ -1,6 +1,3 @@
-/* eslint-disable quotes */
-/* eslint-disable no-unused-vars */
-/* eslint linebreak-style: ["error", "windows"] */
 const menu = document.querySelector('#icon');
 const navbar = document.querySelector('nav');
 menu.addEventListener('click', () => {
@@ -21,28 +18,28 @@ const cards = [
     image: './Images/SnapshootPortfoliodesktop1.png',
     title: 'Tonic',
     datas: ['CANOPY', 'Back End Dev', '2015'],
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     skills: ['html', 'css', 'javascript'],
   },
   {
     image: './Images/SnapshootPortfoliodesktop2.png',
     title: 'Multi-Post Stories',
     datas: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: "Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.",
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     skills: ['html', 'css', 'javascript'],
   },
   {
     image: './Images/SnapshootPortfoliodesktop3.png',
     title: 'Facebook 360',
     datas: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: "Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     skills: ['html', 'css', 'javascript'],
   },
   {
     image: './Images/SnapshootPortfoliodesktop4.png',
     title: 'Uber Navigation',
     datas: ['Uber', 'Lead Developer', '2018'],
-    description: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     skills: ['html', 'css', 'javascript'],
   },
 ];
