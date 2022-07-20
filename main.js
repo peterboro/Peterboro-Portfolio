@@ -194,17 +194,17 @@ btns.forEach((btn, index) => {
   });
 });
 
-const form = document.getElementsByClassName('contactform');
+const [form,] = document.getElementsByClassName('contactform');
 const error = document.querySelector('.error');
-// eslint-disable-next-line no-unused-vars
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-// eslint-disable-next-line no-unused-vars
+
+
+
 const message = document.getElementById('message');
 // const email = document.getElementById('email');
 // const emailError = document.querySelector('#email + span.error');
 
 form.addEventListener('submit', (e) => {
+  const {name, email} = form.elements;
   const message = [];
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
