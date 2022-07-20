@@ -194,15 +194,11 @@ btns.forEach((btn, index) => {
   });
 });
 
-// eslint-disable-next-line array-bracket-spacing, comma-dangle
-const [form, ] = document.getElementsByClassName('contactform');
+const [form] = document.getElementsByClassName('contactform');
 const error = document.querySelector('.error');
 const validEmailRegExp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-// eslint-disable-next-line no-unused-vars
-const message = document.getElementById('message');
 form.addEventListener('submit', (e) => {
-  // eslint-disable-next-line no-unused-vars
-  const { name, email } = form.elements;
+  const { email } = form.elements;
   const message = [];
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
