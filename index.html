@@ -280,13 +280,14 @@
         a feature that you need built or a project that needs coding.I’d love to help with it
       </p>
       <form class="contactform" action="https://formspree.io/f/myyoqzdn" method="POST">
-        <label id="name">Name</label>
-        <input type="text" name="name" placeholder="Full Name" maxlength="30" required />
-        <label id="email">Email </label>
-        <input type="email" name="email" placeholder="Email Address" required />
-        <label id="message">Message</label>
-        <textarea name="message" placeholder="Write your message here" maxlength="500" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Full Name" minlength="2" maxlength="30"  required/>
+        <label for="email">Email </label>
+        <input type="text" id="email" name="email" placeholder="Email Address"  />
+        <label for="message">Message</label>
+        <textarea name="message" id="message" placeholder="Write your message here" maxlength="500" required>
         </textarea>
+        <span class="error" aria-live="polite"></span>
         <button type="submit" class="contactme contactbutton">Get it Touch</button>
       </form>
       <div>

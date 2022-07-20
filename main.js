@@ -193,3 +193,21 @@ btns.forEach((btn, index) => {
     popUp(index);
   });
 });
+
+const [form] = document.getElementsByClassName('contactform');
+const error = document.querySelector('.error');
+const validEmailRegExp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+form.addEventListener('submit', (e) => {
+  const { email } = form.elements;
+  const message = [];
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    message.push('email field has to be in lower case');
+  } else if (!validEmailRegExp.test(email.value)) {
+    e.preventDefault();
+    message.push('email provided should be valid');
+  }
+  if (message.length > 0) { error.innerText = message.join(', '); } else {
+    form.submit();
+  }
+});
