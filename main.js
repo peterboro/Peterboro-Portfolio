@@ -194,77 +194,24 @@ btns.forEach((btn, index) => {
   });
 });
 
-const [form,] = document.getElementsByClassName('contactform');
+// eslint-disable-next-line array-bracket-spacing, comma-dangle
+const [form, ] = document.getElementsByClassName('contactform');
 const error = document.querySelector('.error');
-const validEmailRegExp =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-
+const validEmailRegExp = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// eslint-disable-next-line no-unused-vars
 const message = document.getElementById('message');
-// const email = document.getElementById('email');
-// const emailError = document.querySelector('#email + span.error');
-
 form.addEventListener('submit', (e) => {
-  const {name, email} = form.elements;
+  // eslint-disable-next-line no-unused-vars
+  const { name, email } = form.elements;
   const message = [];
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     message.push('email field has to be in lower case');
-  }
-  else if(!validEmailRegExp.test(email.value)){
+  } else if (!validEmailRegExp.test(email.value)) {
     e.preventDefault();
     message.push('email provided should be valid');
   }
-  
-  if (message.length > 0) { error.innerText = message.join(', '); }
-
-  else {
-    
+  if (message.length > 0) { error.innerText = message.join(', '); } else {
     form.submit();
   }
 });
-// email.addEventListener('input', () => {
-//   // Each time the user types something, we check if the
-//   // form fields are valid.
-
-//   if (email.validity.valid) {
-//     // In case there is an error message visible, if the field
-//     // is valid, we remove the error message.
-//     emailError.textContent = ''; // Reset the content of the message
-//     emailError.className = 'error'; // Reset the visual state of the message
-//   } else {
-//     // If there is still an error, show the correct error
-//     // eslint-disable-next-line no-use-before-define
-//     showError();
-//   }
-// });
-
-// form.addEventListener('submit', (event) => {
-//   // if the email field is valid, we let the form submit
-
-//   if (!email.validity.valid) {
-//     // If it isn't, we display an appropriate error message
-//     // eslint-disable-next-line no-use-before-define
-//     showError();
-//     // Then we prevent the form from being sent by canceling the event
-//     event.preventDefault();
-//   }
-// });
-
-// function showError() {
-//   if (email.validity.valueMissing) {
-//     // If the field is empty,
-//     // display the following error message.
-//     emailError.textContent = 'You need to enter an e-mail address.';
-//   } else if (email.validity.typeMismatch) {
-//     // If the field doesn't contain an email address,
-//     // display the following error message.
-//     emailError.textContent = 'Entered value needs to be an e-mail address.';
-//   } else if (email.validity.toLowerCase()) {
-//     // If the data is too short,
-//     // display the following error message.
-//     emailError.textContent = 'email field has to be in lower case';
-//   }
-
-//   // Set the styling appropriately
-//   emailError.className = 'error active';
-// }
