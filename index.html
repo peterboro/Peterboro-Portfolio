@@ -281,11 +281,11 @@
       </p>
       <form class="contactform" action="https://formspree.io/f/myyoqzdn" method="POST">
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Full Name" maxlength="30"  />
+        <input type="text" id="name" name="name" placeholder="Full Name" minlength="2" maxlength="30"  required/>
         <label for="email">Email </label>
         <input type="text" id="email" name="email" placeholder="Email Address"  />
         <label for="message">Message</label>
-        <textarea name="message" id="message" placeholder="Write your message here" maxlength="500">
+        <textarea name="message" id="message" placeholder="Write your message here" maxlength="500" required>
         </textarea>
         <span class="error" aria-live="polite"></span>
         <button type="submit" class="contactme contactbutton">Get it Touch</button>
