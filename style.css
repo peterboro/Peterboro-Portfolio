@@ -1118,6 +1118,20 @@ label {
     align-items: center;
     margin: 0 auto;
   } */
+  .error {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .error.active {
+    padding: 0.3em;
+  }
+
   .first-title3 {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -2397,6 +2411,19 @@ label {
     background-size: auto;
     display: flex;
     flex-direction: column;
+  }
+
+  .error {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+  }
+  .error.active {
+    padding: 0.3em;
   }
 
   .first-title3 {
