@@ -203,7 +203,7 @@ form.addEventListener('submit', (e) => {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     message.push('email field has to be in lower case');
-  } else if (!validEmailRegExp.test(email.value)) {
+  } else if (validEmailRegExp.test(email.value)) {
     e.preventDefault();
     message.push('email provided should be valid');
   }
