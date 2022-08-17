@@ -256,10 +256,13 @@ label {
   }
 
   .tonic {
-    margin: 12px 0;
+    /* margin: 12px 0; */
+    margin: 42px 0;
     top: 0;
-    width: 295px;
-    height: 36px;
+    /* width: 295px; */
+    width: 400px;
+    /* height: 36px; */
+    height: 8px;
     left: 0;
     flex: none;
     flex-grow: 0;
@@ -269,7 +272,7 @@ label {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .multi-post {
@@ -1630,20 +1633,23 @@ label {
 
   .tonic {
     position: static;
-    width: auto;
-    height: auto;
+    /* width: auto;
+    height: auto; */
+    width: 330px;
+    height: 42px;
     left: 0;
     top: 0;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 44px;
     color: #172b4d;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px 0;
+    /* margin: 12px 0; */
+    margin: 32px 0;
   }
 
   /* .card-works-layout2 .multi-post {
@@ -1654,7 +1660,7 @@ label {
     width: 120%;
   } */
   .card-2 .tonic {
-    width: 120%;
+    width: 120%; 
   }
 
   .ul-frame1 {
