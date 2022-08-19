@@ -6,7 +6,7 @@ For the first milestone in the process of creating my portfolio website, I will:
 ![Screenshot Mobile-version](https://user-images.githubusercontent.com/27219880/179824590-9ba8372d-056f-4554-a717-d72b24f17f32.png)
 
 ##Live Demo
-[LIVE DEMO](https://peterboro.github.io/Portfolio-setup-mobile-microverse/)
+[LIVE DEMO](https://peterboro.github.io/Peterboro-Portfolio/)
 
 ## Built With
 - HTML
